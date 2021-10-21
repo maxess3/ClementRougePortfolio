@@ -73,7 +73,6 @@ for (let i = 0; i < card.length; i++) {
         titleProject.classList.add("show-project");
         showProject.classList.add("show-project");
         gsap.from(showProject, { // selector text, Array, or object
-            height: 80,
             opacity: 0,
             delay: 0.5,
             duration: 0.3,
