@@ -12,7 +12,6 @@ document.addEventListener("scroll", (e)=> {
             navbar.classList.add("navbar-desactivate");
         }
         if(scroll_top < (last_scroll_top)){
-            console.log("oups")
             navbar.classList.add("navbar-active");
         } else {
             navbar.classList.remove("navbar-active");
@@ -165,6 +164,7 @@ links.forEach(element => {
         line1.classList.remove("line1-active");
         line2.classList.remove("line2-active");
         line3.classList.remove("line3-active");
+        document.body.classList.remove("body-freeze");
     })
 });
 const menu = document.getElementById("burger-menu");
@@ -178,4 +178,6 @@ menu.addEventListener("click", () => {
     line2.classList.toggle("line2-active");
     line3.classList.toggle("line3-active");
     innerMenu.classList.toggle("navigation-active");
+    menu.classList.toggle("burger-active");
+    document.body.classList.toggle("body-freeze");
 })
