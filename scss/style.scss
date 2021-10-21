@@ -272,22 +272,22 @@ a{ text-decoration: none; color: white; }
                color: white;
                opacity: 0.95;
            }
-           button{
-               font-family: 'Montserrat', sans-serif;
-               font-weight: bold;
-               cursor: pointer;
-               padding: 10px;
-               margin-top: 20px;
-               background-color: transparent;
-               border: 2px solid red;
-               color: red;
-               width: 200px;
-               a{
-                   color: rgb(223, 223, 223);
-                   &:hover{
-                       color: white;
-                   }
-               }
+           a{
+            button{
+                font-family: 'Montserrat', sans-serif;
+                font-weight: bold;
+                cursor: pointer;
+                padding: 10px;
+                margin-top: 20px;
+                background-color: transparent;
+                border: 2px solid red;
+                color: red;
+                width: 200px;
+                color: rgb(223, 223, 223);
+                &:hover{
+                    color: white;
+                }
+            }
            }
            p{
                margin-top: 30px;
