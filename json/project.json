@@ -1,0 +1,72 @@
+[
+  {
+    "title": "SOUND DESIGN REEL",
+    "client": "Personal Project",
+    "year": "2021",
+    "skills": "Sound design, Mixing",
+    "projectURL": "https://vimeo.com/618163151",
+    "description": "Hi I'm Clement, Sound Designer for video games and this is my audio works demo reel. Take a listen, I hope you will enjoy !",
+    "imageURL": "Sound_Showreel",
+    "videoURL": "https://vimeo.com/618163151"
+  },
+  {
+    "title": "CAPTURE THE MOMENT",
+    "client": "ENJMIN (Student Project)",
+    "year": "2021",
+    "skills": "Sound Design, Audio Integration/Systems (Wwise, UE4 Blueprint), Music Production",
+    "projectURL": "https://gaellerouau.itch.io/capturethemoment",
+    "description": "After a busy life of archeology and photography, it's time to leave this world. But before leaving, you will travel in your dreams for the very last time. In this strange place, go in search of objects from your past in order to photograph them ... ... and thus relive the memories linked to them. I created quit elaborate camera, wheather and ambiance systems for the game along with composing different music.",
+    "imageURL": "Capture",
+    "videoURL": "https://vimeo.com/626516024"
+  },
+  {
+    "title": "PATCH ME UP",
+    "client": "ENJMIN (Student Project)",
+    "year": "2021",
+    "skills": "Sound Design, Audio Integration/Systems (FMOD, C#), Music Production",
+    "projectURL": "https://santiago-orozco.itch.io/patch-me-up",
+    "description": "In a world made of fabrics, a musician struggles to find inspiration for her new composition. And for good reason: these days have not been easy for her! Fortunately, she is not alone, as she goes to talk to her neighbors and friends, she will regain hope, the strength to forgive and face her past so that she can finally move on.",
+    "imageURL": "Patch_Me_Up",
+    "videoURL": "https://vimeo.com/626525486"
+  },
+  {
+    "title": "LAVALHALLA",
+    "client": "ENJMIN (Student Project)",
+    "year": "2020",
+    "skills": "Sound Design, Audio Integration/Systems (Wwise, C#), Music production",
+    "projectURL": "https://kaiton.itch.io/lavalhalla",
+    "description": "Keep the Spark's Core to stay alive while repelling your opponent ! Push yourself and your mindgames to the limits in this fast-paced 1v1 platform fighter !",
+    "imageURL": "Lavalhalla",
+    "videoURL": "https://vimeo.com/626533529"
+  },
+  {
+    "title": "STARS",
+    "client": "ENJMIN (Student Project)",
+    "year": "2020",
+    "skills": "Sound Design, Audio Integration (C#),",
+    "projectURL": "https://paulkessel.itch.io/etoiles",
+    "description": "Place your hand to touch all the stars of the level while avoiding the black holes, to learn the history of the constellation in front of you. We had the chance to expose and present the game installation to thousand of people at the great scientific culture center Cité de l’espace.",
+    "imageURL": "Stars_01",
+    "videoURL": "https://www.youtube.com/watch?v=k5lRXqYFdLM"
+  },
+  {
+    "title": "BBC Two Idents - Sound Re-Design",
+    "client": "Personal Project",
+    "year": "2020",
+    "skills": "Sound design, Mixing",
+    "projectURL": "https://vimeo.com/379621200",
+    "description": "Sound Re-Design of the original BBC Two Idents September 2018. Everything sound you hear has been re-designed from scratch using a mix of sound libraries and sounds I created and recorded myself.",
+    "imageURL": "BBC",
+    "videoURL": "https://vimeo.com/379621200"
+  },
+  {
+    "title": "SWTOR - Knights of the Fallen Empire Trailer | Sound Re-Design",
+    "client": "Personal Project",
+    "year": "2019",
+    "skills": "Sound design, Implementation, Mix",
+    "projectURL": "https://vimeo.com/390366553",
+    "description": "Sound Re-Design of the STAR WARS: The Old Republic – Knights of the Fallen Empire – “Sacrifice” Trailer. The challenge was to designed a self-sufficient soundtrack without any musical elements, even though I obviously knew music was a big part of the original trailer. <br/> Everything sound you hear has been re-designed from scratch using a mix of sound libraries (mainly for this project) and sounds I created and recorded myself.",
+    "imageURL": "SWTOR",
+    "videoURL": "https://vimeo.com/390366553"
+  }
+]

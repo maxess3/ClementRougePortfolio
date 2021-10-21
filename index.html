@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Clément Rougé. Sound Designer Professionnel et Expérimenté. Mes prestastions sonores pour le particulier">
+    <title>Clément Rougé | Portfolio</title>
+    <link rel="stylesheet" href="scss/style.scss">
+    <script>
+        function scrollToView(id){
+            document.getElementById(id).scrollIntoView();
+        }
+    </script>
+</head>
+<body>
+    <nav id="navbar-container">
+        <div class="name">
+            <span><a href="#work"><img src="img/logo_darker.png" alt="">Clément Rougé</a></span>
+        </div>
+        <div class="navigation">
+            <ul>
+                <li class="link-page" onclick="scrollToView('work')"><a href="#profile">Accueil</a></li>
+                <li class="link-page" onclick="scrollToView('work');"><a href="#work">Mes réalisations</a></li>
+                <li class="link-page" onclick="scrollToView('whoami');"><a href="#whoami">A propos</a></li>
+                <li class="link-page" onclick="scrollToView('grid-services');"><a href="#grid-services">Mes services</a></li>
+                <li class="link-page" onclick="scrollToView('contact');"><a href="#contact">Me contacter</a></li>
+            </ul>
+        </div>
+        <div id="burger-menu">
+            <span class="line-menu line1"></span>
+            <span class="line-menu line2"></span>
+            <span class="line-menu line3"></span>
+        </div>
+    </nav>
+    <div id="profile" class="section">
+        <div>
+            <span>Clément Rougé</span>
+            <h1>Sound Designer</h1>
+            <!-- <div class="icons">
+                <span><img src="icon/facebook.svg" alt="facebook" class="icon"></span> 
+                <span><img src="icon/soundcloud.svg" alt="facebook" class="icon"></span> 
+                <span><img src="icon/facebook.svg" alt="facebook" class="icon"></span> 
+            </div> -->
+        </div>
+    </div>
+    <div class="title-project">
+        <h4><span class="arrow-left"><img src="icon/arrow-left-solid.svg" alt="Voir le projet précédent" width="20" height="20"></span><span id="title">WHAT REMAINS OF EDITH FINCH</span><span class="arrow-right"><img src="icon/arrow-right-solid.svg" alt="Voir le prochain projet" width="20" height="20"> </span></h4>
+    </div>
+    <div id="project-show">
+        <div class="inner-project">
+            <div class="preview">
+                <img src="img/home.png" alt="" id="photo-project" width="300" height="200" loading="lazy">
+            </div>
+            <div class="info-preview">
+                <span>Client: <span id="client">eef </span></span>
+                <span>Year: <span id="year">2014</span></span>
+                <span>Skills: <span id="skills">Sound design, Implementation, Mix</span></span>
+                <button><a href="http://" target="_blank" rel="noopener noreferrer" id="projectURL">GO TO PROJECT</a></button>
+                <p id="description">Alientrap’s Apotheon is gritty, bloody, and everything that is good in a combat based game. The focus of the sound design is to make the combat come alive and keep you immersed in the heat of battle.</p>
+            </div>
+        </div>
+        <div class="close-project">
+            <img src="icon/exit.svg" alt="" class="close-now">
+        </div>
+    </div>
+    <div id="work" class="section">
+        <h2>Mes réalisations</h2>
+        <p>Toutes mes réalisations.</p>
+    </div>
+    <div id="grid-work">
+        <!-- <div class="project">
+            <div>
+                <span class="titleCard">test</span>
+                <img src="img/piano.jpg" alt="">
+            </div>
+        </div> -->
+    </div>
+    <div id="whoami" class="section">
+        <h2>Qui suis-je ?</h2>
+        <p>Texte de description.</p>
+    </div>
+    <div id="photo">
+        <div data-aos="fade-up">
+            <img src="img/profil.jpg" alt="" width="300" height="200" loading="lazy">
+        </div>
+        <div>
+            <h3 data-aos="fade-up">Hello and thanks for checking my work !</h3>
+            <p data-aos="fade-up">I’m Clement, I’m a game audio designer for video game and I’m currently searching for an end-of-studies internship in the industry. My love for audio and video games goes back when I was really young and since then I never ceased to be immersed in anything related to these 2 wonderful worlds, eager to bring my knowledges and vision on incredible games. 
+                I have always been able to acquired new self-taught skills and applied them on professional contexts especially during my studies at CNAM ENJMIN Master’s degree in Audio Design in video games.</p>
+        </div>
+    </div>
+    <div id="services" class="section">
+        <h2>Mes prestations</h2>
+        <p>Toutes mes prestations.</p>
+    </div>
+    <div id="grid-services">
+        <div class="service" data-aos="fade-up">
+            <div >
+                <img src="icon/music.svg" alt="" width="20" height="20">
+            </div>
+            <div>
+                <span>Indiquer la prestation</span>
+                <p>Interactive audio design is about creating sound systems that will complement all the other systems that make up your game. Making sure sound is used as a way to reinforce game mechanics and also bring the proper aesthetic to the game, that’s what it’s all about.</p>
+            </div>
+        </div>
+        <div class="service" data-aos="fade-up">
+            <div>
+                <img src="icon/music.svg" alt="" width="20" height="20">
+            </div>
+            <div>
+                <span>Indiquer la prestation</span>
+                <p>Interactive audio design is about creating sound systems that will complement all the other systems that make up your game. Making sure sound is used as a way to reinforce game mechanics and also bring the proper aesthetic to the game, that’s what it’s all about.</p>
+            </div>
+        </div>
+        <div class="service" data-aos="fade-up">
+            <div>
+                <img src="icon/music.svg" alt="" width="20" height="20">
+            </div>
+            <div>
+                <span>Indiquer la prestation</span>
+                <p>Interactive audio design is about creating sound systems that will complement all the other systems that make up your game. Making sure sound is used as a way to reinforce game mechanics and also bring the proper aesthetic to the game, that’s what it’s all about.</p>
+            </div>
+        </div>
+        <div class="service" data-aos="fade-up">
+            <div>
+                <img src="icon/music.svg" alt="" width="20" height="20">
+            </div>
+            <div>
+                <span>Indiquer la prestation</span>
+                <p>Interactive audio design is about creating sound systems that will complement all the other systems that make up your game. Making sure sound is used as a way to reinforce game mechanics and also bring the proper aesthetic to the game, that’s what it’s all about.</p>
+            </div>
+        </div>
+        <div class="service" data-aos="fade-up">
+            <div>
+                <img src="icon/music.svg" alt="" width="20" height="20">
+            </div>
+            <div>
+                <span>Indiquer la prestation</span>
+                <p>Interactive audio design is about creating sound systems that will complement all the other systems that make up your game. Making sure sound is used as a way to reinforce game mechanics and also bring the proper aesthetic to the game, that’s what it’s all about.</p>
+            </div>
+        </div>
+        <div class="service" data-aos="fade-up">
+            <div>
+                <img src="icon/music.svg" alt="" width="20" height="20">
+            </div>
+            <div>
+                <span>Indiquer la prestation</span>
+                <p>Interactive audio design is about creating sound systems that will complement all the other systems that make up your game. Making sure sound is used as a way to reinforce game mechanics and also bring the proper aesthetic to the game, that’s what it’s all about.</p>
+            </div>
+        </div>
+    </div>
+    <div id="contact" class="section">
+        <h2>Me contacter</h2>
+        <p>Vous pouvez me contacter.</p>
+    </div>
+    <div class="mail">
+        <a href="mailto: someone@example.com">Me contacter par mail</a>
+    </div>
+    <script src="js/aos.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
