@@ -6,17 +6,21 @@ import { gsap, ScrollTrigger, Draggable, MotionPathPlugin } from "gsap/all";
 let last_scroll_top = 0;
 const navbar = document.getElementById("navbar-container");
 document.addEventListener("scroll", (e)=> {
-    let scroll_top = window.scrollY;
-    if(scroll_top > 0){
-        navbar.classList.add("navbar-desactivate");
-    }
-    if(scroll_top < (last_scroll_top)){
-        console.log("oups")
-        navbar.classList.add("navbar-active");
+    if(window.innerWidth > 600){
+        let scroll_top = window.scrollY;
+        if(scroll_top > 0){
+            navbar.classList.add("navbar-desactivate");
+        }
+        if(scroll_top < (last_scroll_top)){
+            console.log("oups")
+            navbar.classList.add("navbar-active");
+        } else {
+            navbar.classList.remove("navbar-active");
+        }
+        last_scroll_top = scroll_top;
     } else {
-        navbar.classList.remove("navbar-active");
+        navbar.classList.remove("navbar-desactivate");
     }
-    last_scroll_top = scroll_top;
 })
 
 if(window.scrollY === 0){
