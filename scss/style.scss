@@ -135,9 +135,8 @@ a{ text-decoration: none; color: white; }
         ul{
             display: flex;
             a{
-                cursor: pointer;
+                margin: 0 20px;
                 li{
-                    margin-left: 2em;
                     font-size: 1em;
                     font-weight: 500;
                     transition: color 0.2s ease;
