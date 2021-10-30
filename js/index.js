@@ -60,7 +60,7 @@ const year = document.getElementById("year");
 const skills = document.getElementById("skills");
 const projectURL = document.getElementById("projectURL");
 const description = document.getElementById("description");
-const photoProject = document.getElementById("photo-project");
+const video = document.getElementById("video");
 const card = document.querySelectorAll(".project");
 const titleProject = document.querySelector(".title-project");
 const showProject = document.getElementById("project-show");
@@ -72,7 +72,7 @@ for (let i = 0; i < card.length; i++) {
         skills.textContent = data[i].skills;
         projectURL.setAttribute("href",data[i].projectURL);
         description.textContent = data[i].description;
-        photoProject.setAttribute("src",`${images[data[i].imageURL]}`);
+        video.setAttribute("src",data[i].videoURL)
         titleProject.classList.add("show-project");
         showProject.classList.add("show-project");
         gsap.from(showProject, { // selector text, Array, or object
@@ -154,12 +154,13 @@ function changeData(index,els){
     skills.textContent = data[index].skills;
     projectURL.setAttribute("href",data[index].projectURL);
     description.textContent = data[index].description;
-    photoProject.setAttribute("src",`${images[data[index].imageURL]}`);
+    video.setAttribute("src", data[index].videoURL);
 }
 
 const links = document.querySelectorAll(".link-page");
 links.forEach(element => {
     element.addEventListener("click",()=> {
+        element.classList.add("links-clicked");
         innerMenu.classList.remove("navigation-active");
         line1.classList.remove("line1-active");
         line2.classList.remove("line2-active");
