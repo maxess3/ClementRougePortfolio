@@ -511,6 +511,14 @@ a{ text-decoration: none; color: white; }
     }
 }
 
+@media screen and(min-width: 1700px) {
+    #grid-music{
+        div{
+            width: 730px;
+        }
+    }
+}
+
 @media screen and(max-width: 1700px) {
     #grid-services{
         padding: 20px 200px;
