@@ -6,7 +6,7 @@ import { gsap, ScrollTrigger, Draggable, MotionPathPlugin } from "gsap/all";
 let last_scroll_top = 0;
 const navbar = document.getElementById("navbar-container");
 document.addEventListener("scroll", (e)=> {
-    if(window.innerWidth > 600){
+    if(window.innerWidth > 20){
         let scroll_top = window.scrollY;
         if(scroll_top > 0){
             navbar.classList.add("navbar-desactivate");
@@ -63,6 +63,7 @@ const description = document.getElementById("description");
 const video = document.getElementById("video");
 const card = document.querySelectorAll(".project");
 const titleProject = document.querySelector(".title-project");
+const clickProject = document.querySelector(".project-click");
 const showProject = document.getElementById("project-show");
 for (let i = 0; i < card.length; i++) {
     card[i].addEventListener("click", () => {
@@ -81,7 +82,7 @@ for (let i = 0; i < card.length; i++) {
             duration: 0.3,
             ease: "ease"
         });
-        titleProject.scrollIntoView({
+        clickProject.scrollIntoView({
             behavior: 'smooth'
           });
     })
@@ -108,10 +109,10 @@ prevProject.addEventListener("click", (e) => {
         } else {
             index = index - 1;
         }
-        changeData(index, elToChange);
+        changeData(index);
     } else {
         index = index - 1;
-        changeData(index, elToChange);
+        changeData(index);
     }
     // Data animation
     animData(elToChange);
@@ -125,10 +126,10 @@ nextProject.addEventListener("click", (e) => {
         } else {
             index = index + 1;
         }
-        changeData(index, elToChange);
+        changeData(index);
     } else {
         index = index + 1;
-        changeData(index, elToChange);
+        changeData(index);
     }
     // Data animation
     animData(elToChange);
@@ -147,7 +148,7 @@ function animData(els){
     });
 }
 
-function changeData(index,els){
+function changeData(index){
     title.textContent = data[index].title;
     client.textContent = data[index].client;
     year.textContent = data[index].year;
